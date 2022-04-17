@@ -1,0 +1,12 @@
+D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\SEP3-main\Presentation\PresentationTier\Entities\bin\Debug\net6.0\Entities.deps.json
+D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\SEP3-main\Presentation\PresentationTier\Entities\bin\Debug\net6.0\Entities.dll
+D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\SEP3-main\Presentation\PresentationTier\Entities\bin\Debug\net6.0\Entities.pdb
+D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\SEP3-main\Presentation\PresentationTier\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\SEP3-main\Presentation\PresentationTier\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\SEP3-main\Presentation\PresentationTier\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\SEP3-main\Presentation\PresentationTier\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\SEP3-main\Presentation\PresentationTier\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\SEP3-main\Presentation\PresentationTier\Entities\obj\Debug\net6.0\Entities.dll
+D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\SEP3-main\Presentation\PresentationTier\Entities\obj\Debug\net6.0\refint\Entities.dll
+D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\SEP3-main\Presentation\PresentationTier\Entities\obj\Debug\net6.0\Entities.pdb
+D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\SEP3-main\Presentation\PresentationTier\Entities\obj\Debug\net6.0\ref\Entities.dll
