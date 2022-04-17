@@ -1,0 +1,47 @@
+﻿@page "/Cart"
+@using Entities
+@using Contracts
+@inject IOrderService OrderCart
+
+<h3>Cart</h3>
+
+@if (orders == null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else if (!orders.Any())
+{
+    <p>
+        <em>No orders exist.</em>
+    </p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Order ID</th> <th>Client ID</th> <th>Item</th> <th>Completed?</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var o in orders)
+        {
+            <tr>
+                <td>@o.OrderId</td> <td>@o.ClientId</td> <td>@o.Item</td> <td>@o.IsCompleted</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+
+
+@code {
+    private ICollection<Order> orders;
+
+    protected override async Task OnInitializedAsync()
+    {
+        orders = await OrderCart.GetAllOrdersAsync();
+    }
+}

@@ -1,0 +1,57 @@
+﻿@* Page for adding items to cart *@
+@page "/AddToCart"
+@using Entities
+@using Contracts
+@inject IOrderService OrderCart
+@inject NavigationManager NavMgr
+
+ <div class="box">
+        <h3>Add an Item to the Cart</h3>
+        <EditForm Model="@newOrderItem" OnValidSubmit="@AddNewOrder">
+            <DataAnnotationsValidator/>
+            <ValidationSummary/>
+            <div class="form-group field">
+                <span>
+                    <label>Client Id:</label>
+                </span>
+                <span>
+                    <InputNumber @bind-Value="newOrderItem.ClientId"/>
+                </span>
+            </div>
+            <div class="form-group field">
+                <span>
+                    <label>Item:</label>
+                </span>
+                <span>
+                    <InputTextArea rows="4" @bind-Value="newOrderItem.Item"/>
+                </span>
+            </div>
+            <p class="actions">
+                <button class="acceptbtn" type="submit">Create</button>
+            </p>
+        </EditForm>
+        @if(!string.IsNullOrEmpty(errorLabel)) {
+            <label>@errorLabel</label>
+        }
+    </div>
+
+@code {
+    private Order newOrderItem = new Order();
+    private string errorLabel;
+
+    private async Task AddNewOrder()
+    {
+        errorLabel = "";
+        try
+        {
+            await OrderCart.AddOrderAsync(newOrderItem);
+        }
+        catch (Exception e)
+        {
+            errorLabel = e.Message;
+            return;
+        }
+
+        NavMgr.NavigateTo("/Cart");
+    }
+}
