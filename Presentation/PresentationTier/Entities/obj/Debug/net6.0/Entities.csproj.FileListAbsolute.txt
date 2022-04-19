@@ -10,3 +10,15 @@ D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\SEP3-main\Presentation\Present
 D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\SEP3-main\Presentation\PresentationTier\Entities\obj\Debug\net6.0\refint\Entities.dll
 D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\SEP3-main\Presentation\PresentationTier\Entities\obj\Debug\net6.0\Entities.pdb
 D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\SEP3-main\Presentation\PresentationTier\Entities\obj\Debug\net6.0\ref\Entities.dll
+C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\Entities\bin\Debug\net6.0\Entities.deps.json
+C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\Entities\bin\Debug\net6.0\Entities.dll
+C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\Entities\bin\Debug\net6.0\ref\Entities.dll
+C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\Entities\bin\Debug\net6.0\Entities.pdb
+C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\Entities\obj\Debug\net6.0\Entities.dll
+C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\Entities\obj\Debug\net6.0\ref\Entities.dll
+C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\Entities\obj\Debug\net6.0\Entities.pdb

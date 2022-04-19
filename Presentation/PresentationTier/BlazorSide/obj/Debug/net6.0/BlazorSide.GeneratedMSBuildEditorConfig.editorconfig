@@ -1,0 +1,84 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorSide
+build_property.RootNamespace = BlazorSide
+build_property.ProjectDir = C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Pages/Cart.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Pages/Help.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGVscC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Pages/Item.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Pages/Service.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Pages/Shop.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-w54n3dj190
+
+[C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Pages/AddToCart.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkVG9DYXJ0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-i0m9gfm1wv
+
+[C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-myv4jvvs7h
+
+[C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-iudrf1euyd
+
+[C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

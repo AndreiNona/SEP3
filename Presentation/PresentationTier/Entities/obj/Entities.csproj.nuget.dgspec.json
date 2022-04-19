@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Halfa\\DANIA\\School Stuff\\VIA\\3rd semester\\SEP3\\SEP3-main\\Presentation\\PresentationTier\\Entities\\Entities.csproj": {}
+    "C:\\Users\\Andrei\\Desktop\\Via\\Semestru 3\\SEP project\\Presentation\\PresentationTier\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "D:\\Halfa\\DANIA\\School Stuff\\VIA\\3rd semester\\SEP3\\SEP3-main\\Presentation\\PresentationTier\\Entities\\Entities.csproj": {
+    "C:\\Users\\Andrei\\Desktop\\Via\\Semestru 3\\SEP project\\Presentation\\PresentationTier\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Halfa\\DANIA\\School Stuff\\VIA\\3rd semester\\SEP3\\SEP3-main\\Presentation\\PresentationTier\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\Via\\Semestru 3\\SEP project\\Presentation\\PresentationTier\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\Halfa\\DANIA\\School Stuff\\VIA\\3rd semester\\SEP3\\SEP3-main\\Presentation\\PresentationTier\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\Halfa\\DANIA\\School Stuff\\VIA\\3rd semester\\SEP3\\SEP3-main\\Presentation\\PresentationTier\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\Andrei\\Desktop\\Via\\Semestru 3\\SEP project\\Presentation\\PresentationTier\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andrei\\Desktop\\Via\\Semestru 3\\SEP project\\Presentation\\PresentationTier\\Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Andrei\\.dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
