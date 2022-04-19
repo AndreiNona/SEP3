@@ -1,0 +1,15 @@
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Data\bin\Debug\net6.0\Data.exe
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Data\bin\Debug\net6.0\Data.deps.json
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Data\bin\Debug\net6.0\Data.runtimeconfig.json
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Data\bin\Debug\net6.0\Data.dll
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Data\bin\Debug\net6.0\Data.pdb
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Data\obj\Debug\net6.0\Data.csproj.AssemblyReference.cache
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Data\obj\Debug\net6.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Data\obj\Debug\net6.0\Data.AssemblyInfoInputs.cache
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Data\obj\Debug\net6.0\Data.AssemblyInfo.cs
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Data\obj\Debug\net6.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Data\obj\Debug\net6.0\Data.dll
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Data\obj\Debug\net6.0\refint\Data.dll
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Data\obj\Debug\net6.0\Data.pdb
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Data\obj\Debug\net6.0\Data.genruntimeconfig.cache
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Data\obj\Debug\net6.0\ref\Data.dll

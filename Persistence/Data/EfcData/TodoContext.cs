@@ -29,7 +29,7 @@ public class TodoContext : DbContext
             new Order(3, "Eat breakfast"),
             new Order(4, "Mow lawn"),
         };
-        orders.AddRange(ts);
+       // orders.AddRange(ts);
         SaveChanges();
     }
 }
