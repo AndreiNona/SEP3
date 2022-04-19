@@ -48,4 +48,14 @@ public class Order implements Serializable {
     public void setISCompleted(boolean ISCompleted) {
         this.ISCompleted = ISCompleted;
     }
+
+    @Override
+    public String toString() {
+        return "Order{" +
+                "OrderId=" + OrderId +
+                ", ClientId=" + ClientId +
+                ", Item='" + Item + '\'' +
+                ", ISCompleted=" + ISCompleted +
+                '}';
+    }
 }

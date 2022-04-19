@@ -6,69 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6cff1b6-db06-4378-a5c3-0c80b6bfc186" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BlazorSide/Pages/About.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorSide/Pages/About.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorSide/wwwroot/Andrei.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorSide/wwwroot/Freja.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/Pages/Home.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/Pages/_Host.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/Pages/_Host.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/BlazorSide.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/BlazorSide.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/BlazorSide.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/BlazorSide.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/BlazorSide.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/BlazorSide.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/BlazorSide.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/BlazorSide.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/Contracts.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/Contracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/Contracts.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/Entities.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/RESTClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/RESTClient.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/RESTClient.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/RESTClient.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/ref/BlazorSide.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/bin/Debug/net6.0/ref/BlazorSide.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/obj/BlazorSide.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/obj/BlazorSide.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/obj/BlazorSide.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/obj/BlazorSide.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/obj/Debug/net6.0/BlazorSide.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/obj/Debug/net6.0/BlazorSide.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Application/src/main/java/Contracts/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Application/src/main/java/Logic/IOrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Application/src/main/java/Entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Application/src/main/java/Entities/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Application/src/main/java/RESTClientConnection/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Application/src/main/java/RESTClientConnection/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorSide/obj/Debug/net6.0/BlazorSide.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/obj/Debug/net6.0/BlazorSide.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/obj/Debug/net6.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorSide/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorSide/obj/staticwebassets.pack.sentinel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts/bin/Debug/net6.0/Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/bin/Debug/net6.0/Contracts.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts/bin/Debug/net6.0/Contracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/bin/Debug/net6.0/Contracts.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts/bin/Debug/net6.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/bin/Debug/net6.0/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts/bin/Debug/net6.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/bin/Debug/net6.0/Entities.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts/obj/Contracts.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/obj/Contracts.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts/obj/Contracts.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/obj/Contracts.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts/obj/Debug/net6.0/Contracts.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/obj/Debug/net6.0/Contracts.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts/obj/Debug/net6.0/Contracts.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/obj/Debug/net6.0/Contracts.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/bin/Debug/net6.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/bin/Debug/net6.0/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/bin/Debug/net6.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/bin/Debug/net6.0/Entities.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net6.0/Entities.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net6.0/Entities.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net6.0/Entities.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net6.0/Entities.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net6.0/Entities.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net6.0/Entities.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net6.0/Entities.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net6.0/Entities.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net6.0/Entities.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net6.0/Entities.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net6.0/Entities.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net6.0/Entities.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net6.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net6.0/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net6.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net6.0/Entities.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTClient/bin/Debug/net6.0/Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RESTClient/bin/Debug/net6.0/Contracts.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTClient/bin/Debug/net6.0/Contracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RESTClient/bin/Debug/net6.0/Contracts.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTClient/bin/Debug/net6.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RESTClient/bin/Debug/net6.0/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTClient/bin/Debug/net6.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RESTClient/bin/Debug/net6.0/Entities.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTClient/bin/Debug/net6.0/RESTClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RESTClient/bin/Debug/net6.0/RESTClient.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTClient/bin/Debug/net6.0/RESTClient.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RESTClient/bin/Debug/net6.0/RESTClient.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTClient/obj/Debug/net6.0/RESTClient.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RESTClient/obj/Debug/net6.0/RESTClient.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTClient/obj/Debug/net6.0/RESTClient.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RESTClient/obj/Debug/net6.0/RESTClient.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +92,8 @@
       <workItem from="1650196339671" duration="3441000" />
       <workItem from="1650220206217" duration="247000" />
       <workItem from="1650344792350" duration="36000" />
-      <workItem from="1650344838095" duration="2736000" />
+      <workItem from="1650344838095" duration="3057000" />
+      <workItem from="1650369912880" duration="2856000" />
     </task>
     <task id="LOCAL-00001" summary="-first pres commit">
       <created>1650195029667</created>
@@ -165,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650198549677</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="-Presentation working web">
+      <created>1650347883569</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650347883569</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +140,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="-first pres commit" />
     <MESSAGE value="-pres commit RESTClient" />
-    <option name="LAST_COMMIT_MESSAGE" value="-pres commit RESTClient" />
+    <MESSAGE value="-Presentation working web" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Presentation working web" />
   </component>
 </project>
