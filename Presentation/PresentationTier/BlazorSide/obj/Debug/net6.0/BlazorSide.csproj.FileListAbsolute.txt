@@ -5,7 +5,6 @@ C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\bin\Debug\net6.0\BlazorSide.deps.json
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\bin\Debug\net6.0\BlazorSide.runtimeconfig.json
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\bin\Debug\net6.0\BlazorSide.dll
-C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\bin\Debug\net6.0\ref\BlazorSide.dll
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\bin\Debug\net6.0\BlazorSide.pdb
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\bin\Debug\net6.0\Contracts.dll
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\bin\Debug\net6.0\Entities.dll
@@ -34,3 +33,4 @@ C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\obj\Debug\net6.0\BlazorSide.pdb
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\obj\Debug\net6.0\BlazorSide.genruntimeconfig.cache
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\obj\Debug\net6.0\scopedcss\Pages\About.razor.rz.scp.css
+C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\obj\Debug\net6.0\refint\BlazorSide.dll

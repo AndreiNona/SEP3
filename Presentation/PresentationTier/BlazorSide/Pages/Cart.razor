@@ -1,6 +1,7 @@
 ﻿@page "/Cart"
 @using Entities
 @using Contracts
+@using System.Collections
 @inject IOrderService OrderCart
 
 <h3>Cart</h3>
@@ -11,7 +12,7 @@
         <em>Loading...</em>
     </p>
 }
-else if (!orders.Any())
+else if (orders.Count==0)
 {
     <p>
         <em>No orders exist.</em>
@@ -26,10 +27,10 @@ else
         </tr>
         </thead>
         <tbody>
-        @foreach (var o in orders)
+        @foreach (Order o in orders)
         {
             <tr>
-                <td>@o.OrderId</td> <td>@o.ClientId</td> <td>@o.Item</td> <td>@o.IsCompleted</td>
+                <td>@o.orderId</td> <td>@o.clientId</td> <td>@o.item</td> <td>@o.iscompleted</td>
             </tr>
         }
         </tbody>
@@ -38,7 +39,7 @@ else
 
 
 @code {
-    private ICollection<Order> orders;
+    private IList<Order> orders;
 
     protected override async Task OnInitializedAsync()
     {

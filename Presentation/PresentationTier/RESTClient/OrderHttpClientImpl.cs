@@ -1,5 +1,8 @@
+using System.Collections;
 using System.Text;
 using System.Text.Json;
+
+using System.Text.Json.Serialization;
 using Contracts;
 using Entities;
 
@@ -7,10 +10,10 @@ namespace RESTClient;
 
 public class OrderHttpClientImpl : IOrderService
 {
-    public async Task<ICollection<Order>> GetAllOrdersAsync()
+    public async Task<IList<Order>> GetAllOrdersAsync()
     {
         using HttpClient client = new ();
-        HttpResponseMessage response = await client.GetAsync("https://localhost:7211/Orders");
+        HttpResponseMessage response = await client.GetAsync("http://localhost:9292/orders");
         string content = await response.Content.ReadAsStringAsync();
 
         if (!response.IsSuccessStatusCode)
@@ -18,18 +21,18 @@ public class OrderHttpClientImpl : IOrderService
             throw new Exception($"Error: {response.StatusCode}, {content}");
         }
 
-        ICollection<Order> order = JsonSerializer.Deserialize<ICollection<Order>>(content, new JsonSerializerOptions
+        IList<Order> orders = JsonSerializer.Deserialize<IList<Order>>(content, new JsonSerializerOptions
         {
             PropertyNameCaseInsensitive = true
         })!;
-        return order;
+        return orders;
     }
 
     public async Task<Order> GetOrderById(int id)
     {
         
         using HttpClient client = new ();
-        HttpResponseMessage response = await client.GetAsync($"https://localhost:7211/{id}/Order");
+        HttpResponseMessage response = await client.GetAsync($"http://localhost:9292/{id}/order");
         string content = await response.Content.ReadAsStringAsync();
 
         if (!response.IsSuccessStatusCode)
@@ -41,6 +44,7 @@ public class OrderHttpClientImpl : IOrderService
         {
             PropertyNameCaseInsensitive = true
         })!;
+        Console.WriteLine(order.ToString());
         return order;
     }
 
@@ -48,11 +52,15 @@ public class OrderHttpClientImpl : IOrderService
     {
         
         using HttpClient client = new ();
-        
-        string postAsJson = JsonSerializer.Serialize(order);
+        var options = new JsonSerializerOptions
+        {
+            PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+        };
+        string postAsJson = JsonSerializer.Serialize(order,options);
+
         StringContent postcontent = new(postAsJson, Encoding.UTF8, "application/json");
-        
-        HttpResponseMessage response = await client.PostAsync($"https://localhost:7211/Order/Add",postcontent);
+
+        HttpResponseMessage response = await client.PostAsync($"http://localhost:9292/order/add",postcontent);
         string content = await response.Content.ReadAsStringAsync();
 
         if (!response.IsSuccessStatusCode)
@@ -63,13 +71,13 @@ public class OrderHttpClientImpl : IOrderService
         {
             PropertyNameCaseInsensitive = true
         })!;
-        
+        Console.WriteLine("AddOrderAsync returned: " + returned.ToString());
     }
 
     public async Task DeleteOrderByIdAsync(int id)
     {
         using HttpClient client = new ();
-        HttpResponseMessage response = await client.GetAsync($"https://localhost:7211/Order/{id}");
+        HttpResponseMessage response = await client.GetAsync($"http://localhost:9292/Order/{id}");
         string content = await response.Content.ReadAsStringAsync();
 
         if (!response.IsSuccessStatusCode)
@@ -82,10 +90,10 @@ public class OrderHttpClientImpl : IOrderService
     {
         using HttpClient client = new ();
         
-        string OrderAsJson = JsonSerializer.Serialize(order);
-        StringContent postcontent = new(OrderAsJson, Encoding.UTF8, "application/json");
+        string orderAsJson = JsonSerializer.Serialize(order);
+        StringContent postcontent = new(orderAsJson, Encoding.UTF8, "application/json");
         
-        HttpResponseMessage response = await client.PostAsync($"https://localhost:7211/Order/update/",postcontent);
+        HttpResponseMessage response = await client.PostAsync($"http://localhost:9292/Order/update/",postcontent);
         string content = await response.Content.ReadAsStringAsync();
 
         if (!response.IsSuccessStatusCode)

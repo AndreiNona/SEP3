@@ -15,7 +15,7 @@
                     <label>Client Id:</label>
                 </span>
                 <span>
-                    <InputNumber @bind-Value="newOrderItem.ClientId"/>
+                    <InputNumber @bind-Value="newOrderItem.clientId"/>
                 </span>
             </div>
             <div class="form-group field">
@@ -23,7 +23,7 @@
                     <label>Item:</label>
                 </span>
                 <span>
-                    <InputTextArea rows="4" @bind-Value="newOrderItem.Item"/>
+                    <InputTextArea rows="4" @bind-Value="newOrderItem.item"/>
                 </span>
             </div>
             <p class="actions">
@@ -41,17 +41,19 @@
 
     private async Task AddNewOrder()
     {
+        newOrderItem.orderId = -1;
+        newOrderItem.iscompleted = true;
         errorLabel = "";
         try
         {
             await OrderCart.AddOrderAsync(newOrderItem);
+            await OrderCart.GetOrderById(newOrderItem.clientId);
         }
         catch (Exception e)
         {
             errorLabel = e.Message;
-            return;
         }
 
-        NavMgr.NavigateTo("/Cart");
+        //NavMgr.NavigateTo("/Cart");
     }
 }

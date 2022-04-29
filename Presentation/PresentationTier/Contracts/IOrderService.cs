@@ -1,10 +1,12 @@
+using System.Collections;
 using Entities;
 
 namespace Contracts;
 
 public interface IOrderService
 {
-    public Task<ICollection<Order>> GetAllOrdersAsync();
+    
+    public Task<IList<Order>> GetAllOrdersAsync();
     public Task<Order> GetOrderById(int id);
     public Task AddOrderAsync(Order order);
     public Task DeleteOrderByIdAsync(int id);

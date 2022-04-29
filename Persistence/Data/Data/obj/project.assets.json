@@ -8,31 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\antom\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Andrei\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\antom\\RiderProjects\\SEP3\\Persistence\\Data\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\Via\\Semestru 3\\SEP project\\Persistence\\Data\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\antom\\RiderProjects\\SEP3\\Persistence\\Data\\Data\\Data.csproj",
-      "packagesPath": "C:\\Users\\antom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\antom\\RiderProjects\\SEP3\\Persistence\\Data\\Data\\obj\\",
+      "projectPath": "C:\\Users\\Andrei\\Desktop\\Via\\Semestru 3\\SEP project\\Persistence\\Data\\Data\\Data.csproj",
+      "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andrei\\Desktop\\Via\\Semestru 3\\SEP project\\Persistence\\Data\\Data\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\antom\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -65,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Andrei\\.dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -3,59 +3,59 @@ package Entities;
 import java.io.Serializable;
 
 public class Order implements Serializable {
-    private int OrderId;
-    private int ClientId;
-    private String Item;
-    private boolean ISCompleted;
+    private int orderId;
+    private int clientId;
+    private String item;
+    private boolean iscompleted;
 
     public Order() {}
 
-    public Order(int orderId, int clientId, String item, boolean ISCompleted) {
-        OrderId = orderId;
-        ClientId = clientId;
-        Item = item;
-        this.ISCompleted = ISCompleted;
+    public Order(int orderId, int clientId, String item, boolean iscompleted) {
+        this.orderId = orderId;
+        this.clientId = clientId;
+        this.item = item;
+        this.iscompleted = iscompleted;
     }
 
     public int getOrderId() {
-        return OrderId;
+        return orderId;
     }
 
     public void setOrderId(int orderId) {
-        OrderId = orderId;
+        this.orderId = orderId;
     }
 
     public int getClientId() {
-        return ClientId;
+        return clientId;
     }
 
     public void setClientId(int clientId) {
-        ClientId = clientId;
+        this.clientId = clientId;
     }
 
     public String getItem() {
-        return Item;
+        return item;
     }
 
     public void setItem(String item) {
-        Item = item;
+        this.item = item;
     }
 
-    public boolean isISCompleted() {
-        return ISCompleted;
+    public boolean isIscompleted() {
+        return iscompleted;
     }
 
-    public void setISCompleted(boolean ISCompleted) {
-        this.ISCompleted = ISCompleted;
+    public void setIscompleted(boolean iscompleted) {
+        this.iscompleted = iscompleted;
     }
 
     @Override
     public String toString() {
         return "Order{" +
-                "OrderId=" + OrderId +
-                ", ClientId=" + ClientId +
-                ", Item='" + Item + '\'' +
-                ", ISCompleted=" + ISCompleted +
+                "OrderId=" + orderId +
+                ", ClientId=" + clientId +
+                ", Item='" + item + '\'' +
+                ", ISCompleted=" + iscompleted +
                 '}';
     }
 }

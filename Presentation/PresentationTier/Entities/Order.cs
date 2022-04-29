@@ -2,21 +2,31 @@ namespace Entities;
 
 public class Order
 {
-    public int OrderId { get; set; }
+    public int orderId { get; set; }
     
-    public int ClientId { get; set; }
+    public int clientId { get; set; }
     
     //public Item[] Items { get; set; }
-    public string Item { get; set; }
+    public string item { get; set; }
     
-    public bool IsCompleted { get; set; }
+    public bool iscompleted { get; set; }
     
     public Order() { }
     
     public Order(int clientId, string item)
     {
-        ClientId = clientId;
+        this.clientId = clientId;
         //Items = items;
-        Item = item;
+        this.item = item;
+    }
+
+    public override string ToString()
+    {
+    return "Order{" +
+           "OrderId=" + orderId +
+           ", ClientId=" + clientId +
+           ", Item='" + item + '\'' +
+           ", ISCompleted=" + iscompleted +
+           '}';
     }
 }
