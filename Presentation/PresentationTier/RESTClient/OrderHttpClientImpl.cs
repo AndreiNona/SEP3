@@ -52,13 +52,14 @@ public class OrderHttpClientImpl : IOrderService
     {
         
         using HttpClient client = new ();
+        //CamelCase for application 
         var options = new JsonSerializerOptions
         {
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
         };
-        string postAsJson = JsonSerializer.Serialize(order,options);
+        string orderAsJson = JsonSerializer.Serialize(order,options);
 
-        StringContent postcontent = new(postAsJson, Encoding.UTF8, "application/json");
+        StringContent postcontent = new(orderAsJson, Encoding.UTF8, "application/json");
 
         HttpResponseMessage response = await client.PostAsync($"http://localhost:9292/order/add",postcontent);
         string content = await response.Content.ReadAsStringAsync();
@@ -89,8 +90,12 @@ public class OrderHttpClientImpl : IOrderService
     public async Task UpdateOrderAsync(Order order)
     {
         using HttpClient client = new ();
-        
-        string orderAsJson = JsonSerializer.Serialize(order);
+        //CamelCase for application 
+        var options = new JsonSerializerOptions
+        {
+            PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+        };
+        string orderAsJson = JsonSerializer.Serialize(order,options);
         StringContent postcontent = new(orderAsJson, Encoding.UTF8, "application/json");
         
         HttpResponseMessage response = await client.PostAsync($"http://localhost:9292/Order/update/",postcontent);

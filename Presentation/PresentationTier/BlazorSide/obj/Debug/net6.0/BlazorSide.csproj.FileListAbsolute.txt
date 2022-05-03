@@ -34,3 +34,4 @@ C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\obj\Debug\net6.0\BlazorSide.genruntimeconfig.cache
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\obj\Debug\net6.0\scopedcss\Pages\About.razor.rz.scp.css
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\obj\Debug\net6.0\refint\BlazorSide.dll
+C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\obj\Debug\net6.0\scopedcss\Pages\Login.razor.rz.scp.css

@@ -1,5 +1,7 @@
+using BlazorSide.Authentification;
 using Contracts;
 using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Web;
 using RESTClient;
 
@@ -9,6 +11,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+builder.Services.AddScoped<AuthenticationStateProvider, SimpleAuthenticationStateProvider>(); //Authentication
+builder.Services.AddScoped<IAuthService, AuthServiceImpl>();                                  //Authentication
+builder.Services.AddScoped<IUserService, UserHttpClientImpl>();
 builder.Services.AddScoped<IOrderService, OrderHttpClientImpl>();
 
 
