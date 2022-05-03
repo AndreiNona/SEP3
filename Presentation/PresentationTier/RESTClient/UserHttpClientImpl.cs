@@ -8,7 +8,7 @@ namespace RESTClient;
 public class UserHttpClientImpl :IUserService
 {
     
-    public async Task<ICollection<User>> GetAsync()
+    public async Task<IList<User>> GetAsync()
     {
         using HttpClient client = new ();
         HttpResponseMessage response = await client.GetAsync("http://localhost:9292/users");
@@ -19,7 +19,7 @@ public class UserHttpClientImpl :IUserService
             throw new Exception($"Error: {response.StatusCode}, {content}");
         }
 
-        ICollection<User> users = JsonSerializer.Deserialize<ICollection<User>>(content, new JsonSerializerOptions
+        IList<User> users = JsonSerializer.Deserialize<IList<User>>(content, new JsonSerializerOptions
         {
             PropertyNameCaseInsensitive = true
         })!;
