@@ -20,14 +20,14 @@ public class OrderDAO : IOrderService
 
     public async Task<Order> GetById(int id)
     {
-        return fileContext.Orders.First(t => t.OrderId == id);
+        return fileContext.Orders.First(t => t.orderId == id);
     }
 
     public async Task<Order> AddAsync(Order order)
     {
-        int largestId = fileContext.Orders.Max(t => t.OrderId);
+        int largestId = fileContext.Orders.Max(t => t.orderId);
         int nextId = largestId + 1;
-        order.OrderId = nextId;
+        order.orderId = nextId;
         fileContext.Orders.Add(order);
         fileContext.SaveChanges();
         return order;
@@ -35,16 +35,16 @@ public class OrderDAO : IOrderService
 
     public async Task DeleteAsync(int id)
     {
-        Order toDelete = fileContext.Orders.First(t => t.OrderId == id);
+        Order toDelete = fileContext.Orders.First(t => t.orderId == id);
         fileContext.Orders.Remove(toDelete);
         fileContext.SaveChanges();
     }
 
     public async Task UpdateAsync(Order order)
     {
-        Order toUpdate = fileContext.Orders.First(t => t.OrderId == order.OrderId);
-        toUpdate.IsCompleted = order.IsCompleted;
-        toUpdate.OrderId = order.OrderId;
+        Order toUpdate = fileContext.Orders.First(t => t.orderId == order.orderId);
+        toUpdate.iscompleted = order.iscompleted;
+        toUpdate.orderId = order.orderId;
         fileContext.SaveChanges();
     }
 }

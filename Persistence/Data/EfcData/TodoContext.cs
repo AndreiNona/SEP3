@@ -10,12 +10,12 @@ public class TodoContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlite("Data Source = Todo.db");
+        optionsBuilder.UseSqlite("Data Source = Data.db");
     }
     
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Order>().HasKey(todo => todo.OrderId);
+        modelBuilder.Entity<Order>().HasKey(todo => todo.orderId);
     }
     public void Seed()
     {

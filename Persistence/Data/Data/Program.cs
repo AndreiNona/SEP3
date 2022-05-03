@@ -14,5 +14,5 @@ ICollection<Order> orders = await orderDao.GetAsync();
 foreach (Order o in orders)
 {
     Console.WriteLine(orders.Count);
-    Console.WriteLine(o.Item+ o.OrderId);
+    Console.WriteLine(o.item+ o.orderId);
 }

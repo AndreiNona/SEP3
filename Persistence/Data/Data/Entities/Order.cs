@@ -4,30 +4,32 @@ using System.Xml.Serialization;
 namespace Data.Entities;
 
 public class Order
-{
-    public int OrderId { get; set; }
+{   
+    public int orderId { get; set; }
     
-    public int ClientId { get; set; }
+    public int clientId { get; set; }
     
-    //public Item[] Items { get; set; }
-    public string Item { get; set; }
+    public string item { get; set; }
     
-    public bool IsCompleted { get; set; }
+    public bool iscompleted { get; set; }
     
     public Order() { }
     
-    public Order(int orderId, string item)
+    public Order(int orderId, int clientId, string item, bool iscompleted)
     {
-        OrderId = orderId;
-        //Items = items;
-        Item = item;
+        this.orderId = orderId;
+        this.clientId = clientId;
+        this.item = item;
+        this.iscompleted = iscompleted;
     }
-    public Order(int orderId,int clientId, string item,bool isCompleted)
+    public override string ToString()
     {
-        orderId = orderId;
-        ClientId = clientId;
-        Item = item;
-        isCompleted = isCompleted;
+        return "Order{" +
+               "OrderId=" + orderId +
+               ", ClientId=" + clientId +
+               ", Item='" + item + '\'' +
+               ", ISCompleted=" + iscompleted +
+               '}';
     }
     
 }
