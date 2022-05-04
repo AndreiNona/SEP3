@@ -1,6 +1,52 @@
 ﻿@page "/Shop"
+@using Contracts
+@using Entities
+@inject IProductService ProductServe
+@inject NavigationManager NavMgr
 <h3>Shop</h3>
 
-@code {
+
+        @if (users == null)
+        {
+            <p>
+                <em>Loading...</em>
+            </p>
+        }
+        else if (!users.Any())
+        {
+            <p>
+                <em>Nobody here, please find some friends.</em>
+            </p>
+        }
+        else
+        {
     
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Name</th> <th>Value</th> <th>Weight</th> <th>Length</th> <th>ID</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (Product p in users)
+                {
+                    <tr>
+                        <td>@p.name</td> 
+                        <td>@p.value</td> 
+                        <td>@p.weight</td>
+                        <td>@p.length</td>
+                        <td id="UserID">@p.productId</td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        }
+@code {
+    private IList<Product> users;
+
+    protected override async Task OnInitializedAsync()
+    {
+        users = await ProductServe.GetProductsAsync();
+    }
+
 }

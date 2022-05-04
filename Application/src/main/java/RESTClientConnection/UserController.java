@@ -34,7 +34,6 @@ public class UserController {
         User user1 = new User(user.getUserId(), user.getPassword(), user.getUsername(), user.getFirstName(), user.getLastName(),user.getEmail(),user.getSecurityLevel()+10);
         System.out.println("addOrder, ResponseEntity: "+ResponseEntity.ok(user1));
         return new ResponseEntity<User>(user1, HttpStatus.OK);
-
     }
 
     //Tested with client

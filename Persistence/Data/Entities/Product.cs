@@ -7,7 +7,7 @@ public class Product
     public double value { get; set; }
     public double weight { get; set; }
     public double width { get; set; }
-    public double lenght { get; set; }
+    public double length { get; set; }
     public double height { get; set; }
     
 
@@ -29,7 +29,7 @@ public class Product
         this.value = value;
         this.weight = weight;
         this.width = width;
-        this.lenght = lenght;
+        this.length = lenght;
         this.height = height;
 
     }
