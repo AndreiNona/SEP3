@@ -1,18 +1,21 @@
 ﻿@page "/Shop"
 @using Contracts
 @using Entities
-@inject IProductService ProductServe
+@inject IProductService _productService
+@inject IOrderService _orderService
 @inject NavigationManager NavMgr
-<h3>Shop</h3>
 
 
-        @if (users == null)
+  <h1 class="title">Bicyclest </h1>
+    <h4 class="motto">pedal as far as you can . .</h4>
+<nav>
+        @if (products == null)
         {
             <p>
                 <em>Loading...</em>
             </p>
         }
-        else if (!users.Any())
+        else if (!products.Any())
         {
             <p>
                 <em>Nobody here, please find some friends.</em>
@@ -20,33 +23,39 @@
         }
         else
         {
-    
-            <table class="table">
-                <thead>
-                <tr>
-                    <th>Name</th> <th>Value</th> <th>Weight</th> <th>Length</th> <th>ID</th>
-                </tr>
-                </thead>
-                <tbody>
-                @foreach (Product p in users)
-                {
-                    <tr>
-                        <td>@p.name</td> 
-                        <td>@p.value</td> 
-                        <td>@p.weight</td>
-                        <td>@p.length</td>
-                        <td id="UserID">@p.productId</td>
-                    </tr>
-                }
-                </tbody>
-            </table>
-        }
-@code {
-    private IList<Product> users;
+            int cont = 0;
+            @foreach (Product p in products)
+            {<!-- Alternative look"background-image: url(@p.url);background-size: cover; background-color: rgba(10,10,10,.5);background-blend-mode: overlay;" -->
+                <ul style="background-image: url(@p.url);background-size: contain; background-repeat: no-repeat;background-position: center;  background-color: rgba(10,10,10,.5);background-blend-mode: overlay;">
+                                     <p class="box">
+                                         <span>@p.name</span>
+                                         <br/>
+                                         <strong class="subtitle">@p.value kr</strong>
+                                         <br/>
+                                         <strong class="content">@p.description</strong>
+                                         <br/>
+                                         <button @onclick="()=>AddToCart(p.productId)">Add to cart</button>
+                                     </p>
+                                 </ul>
+            }
 
+        }
+</nav>
+
+
+
+
+@code {
+    private IList<Product> products;
+    //private IList<Order> orders;
+    private Order cart;
     protected override async Task OnInitializedAsync()
     {
-        users = await ProductServe.GetProductsAsync();
+        products = await _productService.GetProductsAsync();
+        //orders = await _orderService.GetAllOrdersAsync();
     }
-
+    private void AddToCart(int id)
+    {
+        
+    }
 }

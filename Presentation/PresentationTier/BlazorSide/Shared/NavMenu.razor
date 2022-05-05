@@ -1,6 +1,9 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿@using BlazorSide.Authentification
+@inject IAuthService authService
+@inject NavigationManager navMgr
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">BlazorSide</a>
+        <a class="navbar-brand" href="">Bicyclest</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,11 +49,16 @@
         </div>
         <AuthorizeView>
             <Authorized>
-            <div class="nav-item px-3">
-                <NavLink class="nav-link" href="AdminUsers">
-                    <span class="oi oi-envelope-closed" aria-hidden="true"></span> Admin
-                </NavLink>
-            </div>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="MainAdmin">
+                        <span class="oi oi-envelope-closed" aria-hidden="true"></span> Admin
+                    </NavLink>
+                </div>
+                <div class="nav-item px-3" @onclick="() => Logout()">
+                     <NavLink class="nav-link">
+                     <span class="oi oi-lock-locked" aria-hidden="true"></span> Logout
+                     </NavLink>
+                </div>
                 </Authorized>
             </AuthorizeView>
     </nav>
@@ -65,5 +73,9 @@
     {
         collapseNavMenu = !collapseNavMenu;
     }
-
+    private async Task Logout()
+    {
+        await authService.LogoutAsync();
+        navMgr.NavigateTo("/Login");
+    }
 }

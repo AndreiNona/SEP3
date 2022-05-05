@@ -3,6 +3,8 @@ package Entities;
 public class Product {
     private int productId;
     private String name;
+    private String description;
+    private String url;
     private double value;
     private double weight;
     private double width, length,height;
@@ -10,16 +12,20 @@ public class Product {
     public Product() {
     }
 
-    public Product(int productId, String name, double value, double weight) {
+    public Product(int productId, String name,String description, String url, double value, double weight) {
         this.productId = productId;
         this.name = name;
+        this.description = description;
+        this.url = url;
         this.value = value;
         this.weight = weight;
     }
 
-    public Product(int productId, String name, double value, double weight, double width, double lenght, double height) {
+    public Product(int productId, String name,String description,String url, double value, double weight, double width, double lenght, double height) {
         this.productId = productId;
         this.name = name;
+        this.description = description;
+        this.url = url;
         this.value = value;
         this.weight = weight;
         this.width = width;
@@ -42,6 +48,18 @@ public class Product {
     public void setName(String name) {
         this.name = name;
     }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getUrl() {return url;}
+
+    public void setUrl(String url) {this.url = url;}
 
     public double getValue() {
         return value;

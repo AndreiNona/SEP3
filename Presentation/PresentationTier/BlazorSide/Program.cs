@@ -15,6 +15,7 @@ builder.Services.AddScoped<AuthenticationStateProvider, SimpleAuthenticationStat
 builder.Services.AddScoped<IAuthService, AuthServiceImpl>();                                  //Authentication
 builder.Services.AddScoped<IUserService, UserHttpClientImpl>();
 builder.Services.AddScoped<IOrderService, OrderHttpClientImpl>();
+builder.Services.AddScoped<IProductService, ProductHttpClientImpl>();
 
 
 var app = builder.Build();

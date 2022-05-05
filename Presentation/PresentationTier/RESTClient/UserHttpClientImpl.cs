@@ -29,7 +29,6 @@ public class UserHttpClientImpl :IUserService
 
     public async Task<User> GetUserByUsername(string username)
     {
-
         using HttpClient client = new ();
         HttpResponseMessage response = await client.GetAsync($"http://localhost:9292/{username}/user");
         string content = await response.Content.ReadAsStringAsync();
