@@ -23,15 +23,23 @@ else
     <table class="table">
         <thead>
         <tr>
-            <th>Order ID</th> <th>Client ID</th> <th>Item</th> <th>Completed?</th>
+            <th>Name</th> <th>Description</th> <th>Price</th> <th>Size:l|w|h</th> <th>Remove</th>
         </tr>
         </thead>
         <tbody>
         @foreach (Order o in orders)
         {
-            <tr>
-                <td>@o.orderId</td> <td>@o.clientId</td> <td>@o.item</td> <td>@o.iscompleted</td>
-            </tr>
+            if (!o.iscompleted)
+            {
+                foreach (Product p in o._products)
+                {
+                    <tr>
+                        <td>@p.name</td> <td>@p.description</td> <td>@p.value</td> <td>@p.length|@p.width|@p.height</td>
+                        <td><button @onclick="()=>RemoveProductFromOrder(o,p)">X</button></td>
+                    </tr>
+                }
+                break;
+            }
         }
         </tbody>
     </table>
@@ -40,6 +48,12 @@ else
 
 @code {
     private IList<Order> orders;
+
+    private async Task RemoveProductFromOrder(Order order, Product product)
+    {
+        order._products.Remove(product);
+       await OrderCart.UpdateOrderAsync(order);
+    }
 
     protected override async Task OnInitializedAsync()
     {

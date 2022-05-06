@@ -7,17 +7,18 @@ public class Order
     
     public int clientId { get; set; }
     public int Value{ get; set; }
-
-    //TODO: Make 1:* connection with products
+    
     public IList<Product> _products{ get; set; }
 
     public bool iscompleted { get; set; }
+    
+    public User Owner { get; set; }
     
     public Order() { }
     
 
 
-    public Order(IList<Product> products, int orderId, int clientId, int value, string item, bool iscompleted)
+    public Order(IList<Product> products, int orderId, int clientId, int value, bool iscompleted)
     {
         _products = products;
         this.orderId = orderId;

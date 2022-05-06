@@ -98,7 +98,7 @@ public class OrderHttpClientImpl : IOrderService
         string orderAsJson = JsonSerializer.Serialize(order,options);
         StringContent postcontent = new(orderAsJson, Encoding.UTF8, "application/json");
         
-        HttpResponseMessage response = await client.PostAsync($"http://localhost:9292/Order/update/",postcontent);
+        HttpResponseMessage response = await client.PatchAsync($"http://localhost:9292/order/update",postcontent);
         string content = await response.Content.ReadAsStringAsync();
 
         if (!response.IsSuccessStatusCode)

@@ -2,6 +2,7 @@
 using EfcDataBase;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,27 +10,15 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EfcDataBase.Migrations
 {
     [DbContext(typeof(Context))]
-    partial class ContextModelSnapshot : ModelSnapshot
+    [Migration("20220505210229_Many-to-many")]
+    partial class Manytomany
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.4");
 
             modelBuilder.Entity("Entities.Address", b =>
-                {
-                    b.Property<string>("TempId1")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("TempId2")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.ToTable("Address");
-                });
-
-            modelBuilder.Entity("Entities.Addresses", b =>
                 {
                     b.Property<string>("firsLine")
                         .HasColumnType("TEXT");
@@ -46,16 +35,13 @@ namespace EfcDataBase.Migrations
 
                     b.HasKey("firsLine", "secondLine");
 
-                    b.ToTable("Address", (string)null);
+                    b.ToTable("Address");
                 });
 
             modelBuilder.Entity("Entities.Order", b =>
                 {
                     b.Property<int>("orderId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("OwneruserId")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("Value")
@@ -69,9 +55,7 @@ namespace EfcDataBase.Migrations
 
                     b.HasKey("orderId");
 
-                    b.HasIndex("OwneruserId");
-
-                    b.ToTable("Orders", (string)null);
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("Entities.Product", b =>
@@ -109,7 +93,7 @@ namespace EfcDataBase.Migrations
 
                     b.HasKey("productId");
 
-                    b.ToTable("Products", (string)null);
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Entities.User", b =>
@@ -117,14 +101,6 @@ namespace EfcDataBase.Migrations
                     b.Property<int>("userId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
-
-                    b.Property<string>("AddressfirsLine")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("AddresssecondLine")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
 
                     b.Property<int>("SecurityLevel")
                         .HasColumnType("INTEGER");
@@ -151,9 +127,7 @@ namespace EfcDataBase.Migrations
 
                     b.HasKey("userId");
 
-                    b.HasIndex("AddressfirsLine", "AddresssecondLine");
-
-                    b.ToTable("Users", (string)null);
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("OrderProduct", b =>
@@ -168,30 +142,7 @@ namespace EfcDataBase.Migrations
 
                     b.HasIndex("_productsproductId");
 
-                    b.ToTable("OrderProduct", (string)null);
-                });
-
-            modelBuilder.Entity("Entities.Order", b =>
-                {
-                    b.HasOne("Entities.User", "Owner")
-                        .WithMany("_orders")
-                        .HasForeignKey("OwneruserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Owner");
-                });
-
-            modelBuilder.Entity("Entities.User", b =>
-                {
-                    b.HasOne("Entities.Address", "Address")
-                        .WithMany()
-                        .HasForeignKey("AddressfirsLine", "AddresssecondLine")
-                        .HasPrincipalKey("TempId1", "TempId2")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Address");
+                    b.ToTable("OrderProduct");
                 });
 
             modelBuilder.Entity("OrderProduct", b =>
@@ -207,11 +158,6 @@ namespace EfcDataBase.Migrations
                         .HasForeignKey("_productsproductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("Entities.User", b =>
-                {
-                    b.Navigation("_orders");
                 });
 #pragma warning restore 612, 618
         }

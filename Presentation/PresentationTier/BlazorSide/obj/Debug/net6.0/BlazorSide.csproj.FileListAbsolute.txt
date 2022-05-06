@@ -22,7 +22,6 @@ C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\obj\Debug\net6.0\BlazorSide.RazorAssemblyInfo.cs
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\obj\Debug\net6.0\scopedcss\Pages\AddToCart.razor.rz.scp.css
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Presentation\PresentationTier\BlazorSide\obj\Debug\net6.0\scopedcss\bundle\BlazorSide.styles.css

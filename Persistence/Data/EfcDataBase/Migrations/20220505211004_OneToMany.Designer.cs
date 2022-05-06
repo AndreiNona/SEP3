@@ -2,6 +2,7 @@
 using EfcDataBase;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,27 +10,15 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EfcDataBase.Migrations
 {
     [DbContext(typeof(Context))]
-    partial class ContextModelSnapshot : ModelSnapshot
+    [Migration("20220505211004_OneToMany")]
+    partial class OneToMany
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.4");
 
             modelBuilder.Entity("Entities.Address", b =>
-                {
-                    b.Property<string>("TempId1")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("TempId2")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.ToTable("Address");
-                });
-
-            modelBuilder.Entity("Entities.Addresses", b =>
                 {
                     b.Property<string>("firsLine")
                         .HasColumnType("TEXT");
@@ -46,7 +35,7 @@ namespace EfcDataBase.Migrations
 
                     b.HasKey("firsLine", "secondLine");
 
-                    b.ToTable("Address", (string)null);
+                    b.ToTable("Address");
                 });
 
             modelBuilder.Entity("Entities.Order", b =>
@@ -71,7 +60,7 @@ namespace EfcDataBase.Migrations
 
                     b.HasIndex("OwneruserId");
 
-                    b.ToTable("Orders", (string)null);
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("Entities.Product", b =>
@@ -109,7 +98,7 @@ namespace EfcDataBase.Migrations
 
                     b.HasKey("productId");
 
-                    b.ToTable("Products", (string)null);
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Entities.User", b =>
@@ -117,14 +106,6 @@ namespace EfcDataBase.Migrations
                     b.Property<int>("userId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
-
-                    b.Property<string>("AddressfirsLine")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("AddresssecondLine")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
 
                     b.Property<int>("SecurityLevel")
                         .HasColumnType("INTEGER");
@@ -151,9 +132,7 @@ namespace EfcDataBase.Migrations
 
                     b.HasKey("userId");
 
-                    b.HasIndex("AddressfirsLine", "AddresssecondLine");
-
-                    b.ToTable("Users", (string)null);
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("OrderProduct", b =>
@@ -168,7 +147,7 @@ namespace EfcDataBase.Migrations
 
                     b.HasIndex("_productsproductId");
 
-                    b.ToTable("OrderProduct", (string)null);
+                    b.ToTable("OrderProduct");
                 });
 
             modelBuilder.Entity("Entities.Order", b =>
@@ -180,18 +159,6 @@ namespace EfcDataBase.Migrations
                         .IsRequired();
 
                     b.Navigation("Owner");
-                });
-
-            modelBuilder.Entity("Entities.User", b =>
-                {
-                    b.HasOne("Entities.Address", "Address")
-                        .WithMany()
-                        .HasForeignKey("AddressfirsLine", "AddresssecondLine")
-                        .HasPrincipalKey("TempId1", "TempId2")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Address");
                 });
 
             modelBuilder.Entity("OrderProduct", b =>

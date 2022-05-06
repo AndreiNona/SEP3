@@ -11,6 +11,8 @@ public class Product
     public double width { get; set; }
     public double length { get; set; }
     public double height { get; set; }
+    
+    public IList<Order> _orders{ get; set; }
 
     public Product()
     {

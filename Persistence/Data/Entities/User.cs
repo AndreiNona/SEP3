@@ -10,8 +10,12 @@ public class User
     public string lastName { get; set; }
     public string email { get; set; }
     public int SecurityLevel { get; set; }
-
     
+    public Address Address { get; set; }
+    
+    public IList<Order> _orders { get; set; }
+    
+
     public User() { }
 
     public User(int userId, string username,string password, string firstName, string lastName)
