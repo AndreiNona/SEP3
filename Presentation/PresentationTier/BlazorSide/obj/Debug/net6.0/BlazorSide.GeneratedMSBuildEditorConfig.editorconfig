@@ -19,16 +19,8 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Pages/AdminOrders.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5PcmRlcnMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Pages/AdminUsers.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5Vc2Vycy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Pages/Cart.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Pages/Help.razor]
@@ -66,6 +58,14 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Pages/About.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-w54n3dj190
+
+[C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Pages/AdminOrders.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5PcmRlcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-3t4rgexkq7
+
+[C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Pages/Cart.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-xffmaw8bv9
 
 [C:/Users/Andrei/Desktop/Via/Semestru 3/SEP project/Presentation/PresentationTier/BlazorSide/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=

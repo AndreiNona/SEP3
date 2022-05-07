@@ -1,5 +1,6 @@
 package RESTClientConnection;
 
+import Entities.Order;
 import Entities.Product;
 import Entities.User;
 import org.springframework.http.HttpStatus;
@@ -44,4 +45,27 @@ public class ProductController {
         return new ResponseEntity<Product>(product, HttpStatus.OK);
     }
 
+    @DeleteMapping( "/id/{ProductId}/product/remove")
+    public ResponseEntity DeleteProduct(@PathVariable("ProductId") int ProductId) {
+        //Make connection to logic class
+        System.out.println("DeleteProduct, removed product with id: "+ ProductId);
+        return new ResponseEntity( HttpStatus.OK);
+    }
+    //Tested with Client
+    @PatchMapping( "/product/update")
+    public ResponseEntity UpdateProduct(@RequestBody Product product) {
+        //Make connection to logic class
+        System.out.println("UpdateProduct, updated to: "+ product.toString());
+        return new ResponseEntity( HttpStatus.OK);
+    }
+
+    @PostMapping( "/product/{orderId}/addtocart")
+    public ResponseEntity AddProductToCart(@PathVariable("orderId") int orderId,@RequestBody Product product) {
+        //Make connection to logic class
+        //Request order with orderId, update order to include the product
+        Order order = new Order(orderId,1,null,false);
+        order.add_product(product);
+        System.out.println("AddProductToCart, product added to: "+ order.toString());
+        return new ResponseEntity(order, HttpStatus.OK);
+    }
 }

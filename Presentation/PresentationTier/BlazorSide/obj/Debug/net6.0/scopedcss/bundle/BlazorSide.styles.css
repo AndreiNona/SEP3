@@ -79,6 +79,66 @@ body[b-w54n3dj190]{
     height: 100%;
     padding: 5px;
 }
+/* _content/BlazorSide/Pages/AdminOrders.razor.rz.scp.css */
+.button[b-3t4rgexkq7] {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4c86af;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.buttonC[b-3t4rgexkq7] {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4c86af;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 9px #999;
+}
+.button:hover[b-3t4rgexkq7] {background-color: #3e5e8e
+}
+
+.button:active[b-3t4rgexkq7] {
+    background-color: #3e728e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+/* _content/BlazorSide/Pages/Cart.razor.rz.scp.css */
+.button[b-xffmaw8bv9] {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover[b-xffmaw8bv9] {background-color: #3e8e41}
+
+.button:active[b-xffmaw8bv9] {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
 /* _content/BlazorSide/Pages/Login.razor.rz.scp.css */
 .card[b-g0j0sqin2u] {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
