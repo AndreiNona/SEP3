@@ -5,9 +5,13 @@ using Data.Contracts;
 using Data.DataAccess;
 using Data.Entities;
 using EfcDataBase;
+using Network;
 
 IOrderService orderDao = new OrderDAO(fileContext: new FileContext());
 orderDao.AddAsync(new Order(1, 1, "Test order", false));
+
+SocketClient socketClient = new SocketClient();
+socketClient.startClient();
 
 Console.WriteLine(await orderDao.GetAsync());
 

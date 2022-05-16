@@ -10,6 +10,7 @@
     <ItemGroup>
       <ProjectReference Include="..\Contracts\Contracts.csproj" />
       <ProjectReference Include="..\EfcDataBase\EfcDataBase.csproj" />
+      <ProjectReference Include="..\Network\Network.csproj" />
     </ItemGroup>
 
 </Project>

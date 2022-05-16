@@ -9,7 +9,8 @@
       "Data/1.0.0": {
         "dependencies": {
           "Contracts": "1.0.0",
-          "EfcDataBase": "1.0.0"
+          "EfcDataBase": "1.0.0",
+          "Network": "1.0.0"
         },
         "runtime": {
           "Data.dll": {}
@@ -361,6 +362,14 @@
         "runtime": {
           "Entities.dll": {}
         }
+      },
+      "Network/1.0.0": {
+        "dependencies": {
+          "EfcDataBase": "1.0.0"
+        },
+        "runtime": {
+          "Network.dll": {}
+        }
       }
     }
   },
@@ -577,6 +586,11 @@
       "sha512": ""
     },
     "Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Network/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
