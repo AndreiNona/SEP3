@@ -27,7 +27,9 @@ public class ProductSqliteDAO : IProductService
     }
 
     public async Task AddProductAsync(Product product)
+
     {
+        //context.Attach(order.owner); add to orderDAO
         EntityEntry<Product> added = await context.AddAsync(product);
         await context.SaveChangesAsync();
         //return added.Entity; // For data about the result

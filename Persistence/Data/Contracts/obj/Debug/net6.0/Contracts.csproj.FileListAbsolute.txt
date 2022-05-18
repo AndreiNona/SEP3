@@ -13,6 +13,21 @@ C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Persistence\Data\Contracts\ob
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Persistence\Data\Contracts\obj\Debug\net6.0\refint\Contracts.dll
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Persistence\Data\Contracts\obj\Debug\net6.0\Contracts.pdb
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Persistence\Data\Contracts\obj\Debug\net6.0\ref\Contracts.dll
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Contracts\bin\Debug\net6.0\Contracts.deps.json
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Contracts\bin\Debug\net6.0\Contracts.dll
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Contracts\bin\Debug\net6.0\Contracts.pdb
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Contracts\bin\Debug\net6.0\Entities.dll
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Contracts\bin\Debug\net6.0\Entities.pdb
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Contracts\obj\Debug\net6.0\Contracts.csproj.AssemblyReference.cache
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Contracts\obj\Debug\net6.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Contracts\obj\Debug\net6.0\Contracts.AssemblyInfoInputs.cache
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Contracts\obj\Debug\net6.0\Contracts.AssemblyInfo.cs
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Contracts\obj\Debug\net6.0\Contracts.csproj.CoreCompileInputs.cache
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Contracts\obj\Debug\net6.0\Contracts.csproj.CopyComplete
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Contracts\obj\Debug\net6.0\Contracts.dll
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Contracts\obj\Debug\net6.0\refint\Contracts.dll
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Contracts\obj\Debug\net6.0\Contracts.pdb
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Contracts\obj\Debug\net6.0\ref\Contracts.dll
 D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\RiderProjects\SEP3\Persistence\Data\Contracts\bin\Debug\net6.0\Contracts.deps.json
 D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\RiderProjects\SEP3\Persistence\Data\Contracts\bin\Debug\net6.0\Contracts.dll
 D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\RiderProjects\SEP3\Persistence\Data\Contracts\bin\Debug\net6.0\Contracts.pdb

@@ -17,6 +17,25 @@ C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Persistence\Data\EfcDataBase\
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Persistence\Data\EfcDataBase\obj\Debug\net6.0\EfcDataBase.pdb
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Persistence\Data\EfcDataBase\obj\Debug\net6.0\EfcDataBase.genruntimeconfig.cache
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Persistence\Data\EfcDataBase\obj\Debug\net6.0\ref\EfcDataBase.dll
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\EfcDataBase\bin\Debug\net6.0\EfcDataBase.deps.json
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\EfcDataBase\bin\Debug\net6.0\EfcDataBase.runtimeconfig.json
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\EfcDataBase\bin\Debug\net6.0\EfcDataBase.dll
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\EfcDataBase\bin\Debug\net6.0\EfcDataBase.pdb
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\EfcDataBase\bin\Debug\net6.0\Contracts.dll
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\EfcDataBase\bin\Debug\net6.0\Entities.dll
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\EfcDataBase\bin\Debug\net6.0\Contracts.pdb
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\EfcDataBase\bin\Debug\net6.0\Entities.pdb
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\EfcDataBase\obj\Debug\net6.0\EfcDataBase.csproj.AssemblyReference.cache
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\EfcDataBase\obj\Debug\net6.0\EfcDataBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\EfcDataBase\obj\Debug\net6.0\EfcDataBase.AssemblyInfoInputs.cache
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\EfcDataBase\obj\Debug\net6.0\EfcDataBase.AssemblyInfo.cs
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\EfcDataBase\obj\Debug\net6.0\EfcDataBase.csproj.CoreCompileInputs.cache
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\EfcDataBase\obj\Debug\net6.0\EfcDataBase.csproj.CopyComplete
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\EfcDataBase\obj\Debug\net6.0\EfcDataBase.dll
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\EfcDataBase\obj\Debug\net6.0\refint\EfcDataBase.dll
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\EfcDataBase\obj\Debug\net6.0\EfcDataBase.pdb
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\EfcDataBase\obj\Debug\net6.0\EfcDataBase.genruntimeconfig.cache
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\EfcDataBase\obj\Debug\net6.0\ref\EfcDataBase.dll
 D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\RiderProjects\SEP3\Persistence\Data\EfcDataBase\bin\Debug\net6.0\EfcDataBase.deps.json
 D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\RiderProjects\SEP3\Persistence\Data\EfcDataBase\bin\Debug\net6.0\EfcDataBase.runtimeconfig.json
 D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\RiderProjects\SEP3\Persistence\Data\EfcDataBase\bin\Debug\net6.0\EfcDataBase.dll

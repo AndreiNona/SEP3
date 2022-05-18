@@ -10,7 +10,7 @@ public class Context : DbContext
     public DbSet<Order> Orders { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlite(@"Data Source = C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Persistence\Data\EfcDataBase\Storage.db");
+        optionsBuilder.UseSqlite(@"Data Source = C:\Users\antom\RiderProjects\SEP3\Persistence\Data\EfcDataBase\Storage.db");
     }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

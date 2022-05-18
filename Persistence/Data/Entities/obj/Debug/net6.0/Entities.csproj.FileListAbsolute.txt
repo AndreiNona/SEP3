@@ -10,6 +10,18 @@ C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Persistence\Data\Entities\obj
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Persistence\Data\Entities\obj\Debug\net6.0\refint\Entities.dll
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Persistence\Data\Entities\obj\Debug\net6.0\Entities.pdb
 C:\Users\Andrei\Desktop\Via\Semestru 3\SEP project\Persistence\Data\Entities\obj\Debug\net6.0\ref\Entities.dll
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Entities\bin\Debug\net6.0\Entities.deps.json
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Entities\bin\Debug\net6.0\Entities.dll
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Entities\bin\Debug\net6.0\Entities.pdb
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Entities\obj\Debug\net6.0\Entities.dll
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Entities\obj\Debug\net6.0\refint\Entities.dll
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Entities\obj\Debug\net6.0\Entities.pdb
+C:\Users\antom\RiderProjects\SEP3\Persistence\Data\Entities\obj\Debug\net6.0\ref\Entities.dll
 D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\RiderProjects\SEP3\Persistence\Data\Entities\bin\Debug\net6.0\Entities.deps.json
 D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\RiderProjects\SEP3\Persistence\Data\Entities\bin\Debug\net6.0\Entities.dll
 D:\Halfa\DANIA\School Stuff\VIA\3rd semester\SEP3\RiderProjects\SEP3\Persistence\Data\Entities\bin\Debug\net6.0\Entities.pdb

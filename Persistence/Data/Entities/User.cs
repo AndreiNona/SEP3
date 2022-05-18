@@ -11,7 +11,7 @@ public class User
     public string email { get; set; }
     public int SecurityLevel { get; set; }
     
-    public Address Address { get; set; }
+    public Address? Address { get; set; }
     
     public IList<Order> _orders { get; set; }
     

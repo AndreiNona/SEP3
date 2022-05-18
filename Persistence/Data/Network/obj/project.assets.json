@@ -1125,25 +1125,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\antom\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Halfa\\DANIA\\School Stuff\\VIA\\3rd semester\\SEP3\\RiderProjects\\SEP3\\Persistence\\Data\\Network\\Network.csproj",
+      "projectUniqueName": "C:\\Users\\antom\\RiderProjects\\SEP3\\Persistence\\Data\\Network\\Network.csproj",
       "projectName": "Network",
-      "projectPath": "D:\\Halfa\\DANIA\\School Stuff\\VIA\\3rd semester\\SEP3\\RiderProjects\\SEP3\\Persistence\\Data\\Network\\Network.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\Halfa\\DANIA\\School Stuff\\VIA\\3rd semester\\SEP3\\RiderProjects\\SEP3\\Persistence\\Data\\Network\\obj\\",
+      "projectPath": "C:\\Users\\antom\\RiderProjects\\SEP3\\Persistence\\Data\\Network\\Network.csproj",
+      "packagesPath": "C:\\Users\\antom\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\antom\\RiderProjects\\SEP3\\Persistence\\Data\\Network\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\antom\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1158,8 +1156,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Halfa\\DANIA\\School Stuff\\VIA\\3rd semester\\SEP3\\RiderProjects\\SEP3\\Persistence\\Data\\EfcDataBase\\EfcDataBase.csproj": {
-              "projectPath": "D:\\Halfa\\DANIA\\School Stuff\\VIA\\3rd semester\\SEP3\\RiderProjects\\SEP3\\Persistence\\Data\\EfcDataBase\\EfcDataBase.csproj"
+            "C:\\Users\\antom\\RiderProjects\\SEP3\\Persistence\\Data\\EfcDataBase\\EfcDataBase.csproj": {
+              "projectPath": "C:\\Users\\antom\\RiderProjects\\SEP3\\Persistence\\Data\\EfcDataBase\\EfcDataBase.csproj"
             }
           }
         }
@@ -1188,7 +1186,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
